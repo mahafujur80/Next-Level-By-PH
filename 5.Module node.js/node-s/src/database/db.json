@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 16",
+      "category": "Electronics",
+      "price": 799,
+      "stock": 25,
+      "brand": "Apple",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S25",
+      "category": "Electronics",
+      "price": 899,
+      "stock": 15,
+      "brand": "Samsung",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "MacBook Air M4",
+      "category": "Laptop",
+      "price": 1099,
+      "stock": 10,
+      "brand": "Apple",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Dell XPS 15",
+      "category": "Laptop",
+      "price": 1499,
+      "stock": 0,
+      "brand": "Dell",
+      "inStock": false
+    },
+    {
+      "id": 5,
+      "name": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "price": 349,
+      "stock": 30,
+      "brand": "Sony",
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "AirPods Pro 2",
+      "category": "Earbuds",
+      "price": 249,
+      "stock": 20,
+      "brand": "Apple",
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Logitech MX Master 3S",
+      "category": "Accessories",
+      "price": 99,
+      "stock": 12,
+      "brand": "Logitech",
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Samsung 4K Monitor",
+      "category": "Monitor",
+      "price": 499,
+      "stock": 8,
+      "brand": "Samsung",
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Mechanical Keyboard",
+      "category": "Accessories",
+      "price": 129,
+      "stock": 0,
+      "brand": "Keychron",
+      "inStock": false
+    },
+    {
+      "id": 10,
+      "name": "iPad Air M3",
+      "category": "Tablet",
+      "price": 599,
+      "stock": 18,
+      "brand": "Apple",
+      "inStock": true
+    }
+  ]
