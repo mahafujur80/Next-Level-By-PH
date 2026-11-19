@@ -6,6 +6,7 @@ import express, {
 
 import { userRoutes } from "./modules/users/user.route";
 import { profileRouter } from "./modules/profile/profile.route";
+import { authRoute } from "./modules/auth/auth.route";
 const app: Application = express();
 
 app.use(express.json());
@@ -17,6 +18,8 @@ app.use("/api/v1/users", userRoutes)
 
 // profile
 app.use("/api/v1/profile", profileRouter)
+//auth
+app.use("/api/v1/auth", authRoute)
 
 
 //* Root Route
