@@ -22,8 +22,7 @@ const createUser = async (req: Request, res: Response) => {
 const getAllUser = async(req: Request, res: Response) => {
   try {
   const result = await userService.getAllUsersFromDB()
-  console.log(req.user, 'user from controller')
-
+  
   res.status(200).json({
     success: true,
     message: "user all data successfully fetch",
