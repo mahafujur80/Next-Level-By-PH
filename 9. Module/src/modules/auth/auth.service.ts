@@ -35,6 +35,7 @@ const loginUserIntoApp = async (payload: {
     name: user.rows[0].name,
     email: user.rows[0].email,
     is_active: user.rows[0].is_active,
+    role: user.rows[0].role
   };
 
   const accessToken = jwt.sign(jwtPayload, config.jwtSecret, {
